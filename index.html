@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MASTER AI SIGNAL</title>
+
+<style>
+body {
+  background: #080d18;
+  color: white;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+.card {
+  background: #151e30;
+  padding: 20px;
+  margin: 15px 0;
+  border-radius: 12px;
+}
+h1 { color: #00d69b; }
+select {
+  padding: 10px;
+  border-radius: 8px;
+}
+.status { color: orange; }
+</style>
+</head>
+
+<body>
+
+<h1>MASTER AI SIGNAL</h1>
+<p>XAUUSD GOLD ANALYSIS</p>
+
+<div class="card">
+<h3>Market Price</h3>
+<h2 id="price">Waiting for real data...</h2>
+<p id="dataStatus" class="status">
+DATA NOT CONNECTED
+</p>
+</div>
+
+<div class="card">
+<h3>Timeframe</h3>
+<select id="timeframe">
+<option>M5</option>
+<option>M15</option>
+<option>H1</option>
+</select>
+</div>
+
+<div class="card">
+<h3>AI SIGNAL</h3>
+<h2 id="signal">WAIT</h2>
+<p>Entry: --</p>
+<p>Stop Loss: --</p>
+<p>Take Profit: --</p>
+</div>
+
+<div class="card">
+<h3>Robot Status</h3>
+<p>Pair: XAUUSD</p>
+<p>Mode: SIGNAL ONLY</p>
+<p id="robotStatus">NOT STARTED</p>
+</div>
+
+</body>
+</html>
